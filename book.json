@@ -1,0 +1,53 @@
+{
+  "plugins": [
+    "theme-api",
+    "multipart",
+    "splitter",
+    "anchors"
+  ],
+  "pluginsConfig": {
+    "theme-api": {
+      "languages": [
+        {
+          "lang": "js",
+          "name": "JavaScript",
+          "default": true
+        },
+        {
+          "lang": "go",
+          "name": "Go"
+        }
+      ]
+    }
+  },
+
+  "title": "Haeahn BIM Guidelines",
+
+  "links": {
+    "sidebar": {
+      "Github": "https://github.com/HaeahnBIM"
+    }
+  },
+
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  },
+
+  "pdf": {
+    "fontSize": 12,
+    "paperSize": "a4",
+    "chapterMark": "both",
+    "margin": {
+      "right": 0,
+      "left": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "headerTemplate": "_TITLE_",
+    "footerTemplate": "_SECTION_"
+  }
+}
