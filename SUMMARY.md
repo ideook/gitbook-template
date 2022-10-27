@@ -4,7 +4,8 @@
 
 ## 제1장 개요
 
-* [1.1 일반사항](general-Information/README.md)
+* 1.1 일반사항
+  * [1.1 일반사항](general-Information/README.md)
   * [1.1.1 지침의 개요](general-Information/overview-of-guidelines.md)
   * [1.1.2 지침의 위계](general-Information/hierarchy-of-guidelines.md)
   * [1.1.3 지침의 작성 주체](general-Information/who-wrote-the-guidelines.md)
